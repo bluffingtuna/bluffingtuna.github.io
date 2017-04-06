@@ -8,20 +8,19 @@
 
 	<body>
 		<nav>
-			<a href="index.html"><logo id="name">Jake Park</logo></a>
+			<div class="nav-content-div">
+			<a href="index.html"><span id="name">Jake Park</span></a>
 			<a class="menu" href="index.html">About</a>
+			<span class="menu">|</span>
 			<a class="menu" href="portfolio.html">Portfolio</a>
+			<span class="menu">|</span>
 			<a class="menu" href="contact.html">Contact</a>
-		</nav>
-		<div class="wrapper">
-		<section>
-			<h1>Portfolio</h1><hr>
-			<div class="picture hover-outline">
-				<img class="pics" src="assets/images/d1.jpg" alt="waht">
-				<div class="pictag">
-					Hangman
-				</div>
 			</div>
+		</nav>
+		<div class="wrapper section-content-div">
+		<section>
+			<h1>Portfolio</h1><hr id="hr-section">
+			<div class="picture-group">
 			<div class="picture hover-outline">
 				<a href="http://www.wowvr.org" target="_blank"><img class="pics" src="assets/images/d2.png" alt="waht"></a>
 				<div class="pictag">
@@ -29,9 +28,9 @@
 				</div>
 			</div>
 			<div class="picture hover-outline">
-				<img class="pics" src="assets/images/d3.jpg" alt="waht">
+				<a href="https://github.com/bluffingtuna/morsedecoder" target="_blank"><img class="pics" src="assets/images/d3.jpg" alt="waht"></a>
 				<div class="pictag">
-					Morse Decoder
+					Ruby Morse Decoder
 				</div>
 			</div>
 			<div class="picture hover-outline">
@@ -46,11 +45,12 @@
 					Fishing
 				</div>
 			</div>
+			</div>
 		</section>
 
 		<aside>
 			<h2>Connect with Me</h2>
-			<hr>
+			<hr id="hr-aside">
 			<a href="https://github.com/bluffingtuna" target="_blank"><img class="connect-pic" src="assets/images/github.png" alt="git"></a>
 			<a href="https://www.linkedin.com/in/jake-jin-park-48832751/" target="_blank"><img class="connect-pic" src="assets/images/linkenin.png" alt="linkenin"></a>
 			<a href="mailto:bluffingtuna@gmail.com" target="_blank"><img class="connect-pic" src="assets/images/gmail.png" alt="gmail"></a>
